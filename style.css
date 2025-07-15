@@ -163,11 +163,16 @@ h3{
 }
 
 .box4 {
-  width: 100%;
   flex-basis: 100%;
+  width: 100%;
   margin-top: 60px;
-  align-self: stretch;
+  align-self: flex-start;
+  order: 99;
 }
+.box4 {
+  flex: 0 0 100%;
+}
+
 
 
  .box4 .content .timeline{

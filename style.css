@@ -162,11 +162,17 @@ h3{
     margin-top: 80px; 
 }
 
+.box4 {
+  width: 100%;
+  flex-basis: 100%;
+  margin-top: 40px;
+}
 
  .box4 .content .timeline{
 
   height: 200px;
 }
+
 .box1, .box2, .box3, .box4 {
   border: 3px solid #777;
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);

@@ -239,8 +239,8 @@ background: linear-gradient(to bottom, #9eb9ff, #7f91f6);
   transition: all 0.3s ease;
   flex: 1 1 100px;
   max-width: 120px;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   background: linear-gradient(to bottom, #6e81fc, #6e81fc);
   border: 2px solid #6e81fc;
   text-align: center;
@@ -400,6 +400,17 @@ background: linear-gradient(to bottom, #9eb9ff, #7f91f6);
         margin: 10px auto;
     }
 }
+@media screen and (min-width: 1024px) {
+  .timeline li {
+    min-width: 250px;
+    font-size: 1rem;
+  }
+
+  .timeline div {
+    font-size: 1rem;
+  }
+}
+
 
 .etudeDescr {
   font-size: 0.75rem;

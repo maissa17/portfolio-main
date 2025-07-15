@@ -115,7 +115,7 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
   box-shadow: 0 0 15px rgba(69, 91, 255, 0.773);
   border-radius: 12px;
 }

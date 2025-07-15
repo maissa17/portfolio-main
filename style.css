@@ -165,8 +165,10 @@ h3{
 .box4 {
   width: 100%;
   flex-basis: 100%;
-  margin-top: 40px;
+  margin-top: 60px;
+  align-self: stretch;
 }
+
 
  .box4 .content .timeline{
 

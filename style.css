@@ -118,6 +118,9 @@ body {
     gap: 20px;
   box-shadow: 0 0 15px rgba(69, 91, 255, 0.773);
   border-radius: 12px;
+    max-width: 1200px;
+  margin: auto;
+  padding: 20px;
 }
 
 
